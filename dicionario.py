@@ -1,3 +1,5 @@
+import os
+
 # dicionario
 usuario = {}
 
@@ -40,9 +42,11 @@ usuario["Peso"] = input("Informe o peso do usuário (em kg): ")
 
 usuario["Cor Favorita"] = input("Informe a cor favorita do usuário: ")
 
+os.system("cls")
 
 for chave in usuario:
     print(f"{chave}: {usuario.get(chave)}")
 
 
+    
     
